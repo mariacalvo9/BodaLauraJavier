@@ -38,7 +38,7 @@ const { MongoClient } = require('mongodb');
 
 
 // Configuración de la conexión a MongoDB
-const uri = 'mongodb+srv://vercel-admin-user:<password>@cluster0.80amdms.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'mongodb+srv://vercel-admin-user:b=Q7-Z,c$6,sd@cluster0.80amdms.mongodb.net/?retryWrites=true&w=majority';
 //const uri = 'mongodb://mongo:PIWMwSqbh2bO4LFKaa65@containers-us-west-204.railway.app:7084';
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 
