@@ -4,7 +4,7 @@ $acompanamiento = $_GET['acompanado'];
 $plazaBus = $_GET['plazaBus'];
 
 
-$servername = "localhost";
+$servername = "127.0.0.1";
 $username = " root";
 $password = '18bWzar9EWJaT6xH';
 $dbname = "BodaLauraJavi";
