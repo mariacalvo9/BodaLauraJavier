@@ -84,7 +84,7 @@ app.post('/submit', async (req, res) => {
   };
 
   try {
-    const db = client.db('bodalaurajavier');
+    const db = client.db('BodaLauraJavi');
     const formularioCollection = db.collection('formulario');
 
     await formularioCollection.insertOne(formularioData);
