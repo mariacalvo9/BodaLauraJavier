@@ -7,7 +7,7 @@ $plazaBus = $_GET['plazaBus'];
 $servername = "localhost";
 $username = " root";
 $password = '18bWzar9EWJaT6xH';
-$dbname = "bodalaurajavier";
+$dbname = "BodaLauraJavi";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 
