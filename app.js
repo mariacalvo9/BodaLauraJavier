@@ -84,7 +84,11 @@ app.post('/submit', async (req, res) => {
     const db = client.db('BodaLauraJavi');
     const formularioCollection = db.collection('formulario');
 
-    await formularioCollection.insertOne(formularioData);
+    const writeConcern = { w: 'majority' };
+
+
+    
+    await formularioCollection.insertOne(formularioData, { writeConcern });
 
     console.log(formularioData); // Antes de desestructurar los valores
 
