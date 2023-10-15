@@ -1,4 +1,10 @@
 {
+  "builds": [
+    {
+      "src": "./views/index.ejs",
+      "use": "@vercel/node"
+    }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" }
   ]
